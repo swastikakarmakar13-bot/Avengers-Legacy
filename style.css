@@ -25,6 +25,7 @@ img{
     text-decoration: none;
     background-color: rgb(0, 0, 0);
     color: rgba(194, 194, 194, 0.63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -77,10 +78,13 @@ a{
     margin:0;
 }
 .aven{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(192, 14, 14);
     font-size: 17.4vw;
+    letter-spacing: 10px;
 }
 .capt{
+    font-family: serif;
     color: rgba(163, 162, 162, 0.801);
     font-size: 2vw;
 }
@@ -101,6 +105,7 @@ a{
     display: inline-block;
     cursor: pointer;
     border: none;
+    font-family: sans-serif;
 }
 .exp:hover{
     background-color: rgb(255, 51, 0);
@@ -109,7 +114,6 @@ a{
 .int{
     font-size: 1.9vw;
     color: rgb(255, 255, 255);
-    border: 20px solid rgb(219, 60, 3);
     background-color: black;
     margin: 20px;
     margin-left: 5px;
@@ -118,7 +122,6 @@ a{
     font-weight: bold;
     cursor: pointer;
     display: inline-block; 
-    border: 2px solid rgb(185, 44, 9);
 }
 .int:hover{
     background-color:rgb(255, 51, 0);
@@ -162,6 +165,8 @@ a{
     background-color: rgb(24, 23, 23);
 }
 .card.im{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -179,9 +184,14 @@ a{
 }
 .name{
     font-size: 1.5vw;
-    color: rgb(102, 101, 101);
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-weight: 900;
+
 }
 .card.ca{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -200,8 +210,11 @@ a{
 .nam{
     font-size: 1.5vw;
     color: rgb(102, 101, 101);
+    font-family: serif;
 }
 .card.thor{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -220,8 +233,11 @@ a{
 .na{
     font-size: 1.5vw;
     color: rgb(102, 101, 101);
+    font-family: serif;
 }
 .card.hulk{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -240,8 +256,11 @@ a{
 .np{
     font-size: 1.5vw;
     color: rgb(102, 101, 101);
+    font-family: serif;
 }
 .card.wid{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -260,8 +279,11 @@ a{
 .ou{
     font-size: 1.5vw;
     color: rgb(102, 101, 101);
+    font-family: serif;
 }
 .card.hawkeye{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -280,8 +302,11 @@ a{
 .hm{
     font-size: 1.5vw;
     color: rgb(43, 42, 42);
+    font-family: serif;
 }
 .card.spider-man{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -300,8 +325,11 @@ a{
 .sm{
     font-size: 1.5vw;
     color: rgb(102, 101, 101); 
+    font-family: serif;
 }
 .card.panther{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -319,9 +347,12 @@ a{
 }
 .sm1{
     font-size: 1.5vw;
+    font-family: serif;
     color: rgb(100, 99, 99); 
 }
 .card.doc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -338,6 +369,8 @@ a{
     filter: grayscale(0%);
 }
 .card.scarlet{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -356,8 +389,11 @@ a{
 .sm2{
     font-size: 1.5vw;
     color: rgb(102, 101, 101); 
+    font-family: serif;
 }
 .card.vis{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -374,6 +410,8 @@ a{
     filter: grayscale(0%);
 }
 .card.con{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     justify-content: left;
@@ -392,6 +430,7 @@ a{
 .con1{
     font-size: 1.5vw;
     color: rgb(71, 71, 71); 
+    font-family: serif;
 }
 .blank{
     height: 20vh;
@@ -1872,4 +1911,47 @@ a{
     font-size: 0.8vw;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 70vw;
+}
+.shield-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.shield-card {
+    width: 40vw;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 68, 0, 0.603);
+    transition: 0.4s;
+}
+
+.shield-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgb(245, 93, 38);
+}
+
+.shield-card h3 {
+    color: orangered;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.shield-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: rgb(214, 59, 3);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.shield-card p{
+    color: grey;
+    letter-spacing: 2px;
+    
 }
